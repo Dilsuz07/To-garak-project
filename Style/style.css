@@ -8,6 +8,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 
 /* this is Navbar style start */
@@ -252,6 +253,38 @@ a {
 }
 
 /* Check Success Modal style end */
+
+/* Teacher Control Section style start */
+
+.table-class {
+  width: 100%;
+  height: 100%;
+  padding: 3rem 6rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #d9d9d9;
+}
+
+td,
+th,
+tr {
+  border: 1px solid #000 !important;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.5 ease;
+}
+tr:hover {
+  box-shadow: -15px 0 1px #6d6a6a;
+  background-color: #f7f2f2;
+}
+
+/* Teacher Control Section style end */
 
 @media screen and (max-width: 1000px) {
   .header {
